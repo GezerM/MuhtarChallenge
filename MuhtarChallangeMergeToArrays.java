@@ -10,7 +10,7 @@ public class MuhtarChallangeMergeToArrays {
 		int[] arr3 = arrayMerge(arr1, arr2);
 		
 		System.out.println(Arrays.toString(arr3));
-		System.out.println(Arrays.toString(mergeTwoArrays(arr1, arr2))
+		System.out.println(Arrays.toString(mergeTwoArrays(arr1, arr2)) // second version
 		
 	}
 	
@@ -24,7 +24,7 @@ public class MuhtarChallangeMergeToArrays {
 		return merger;
 		
 	}
-	public static int[] mergeTwoArrays(int[] arr1, int[] arr2) {
+	public static int[] mergeTwoArrays(int[] arr1, int[] arr2) { // another way to do the merging
 		int [] merged = new int[arr1.length + arr2.length];
 		int i = 0;
 		
